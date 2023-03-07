@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root {
+    --header-bg-red-color: #F03C42 ;
+    --text-white-color:#FFFFFF;
+    --bg-blue-color:#222374;
+    --bg-black-color:#000000;
+    --bg-gray-color: #CCCCCC;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open sans', sans-serif;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+header h1 {
+    font-size: 18px;
+}
+header {
+    padding: 35px 0;
+    height: 100px;
+    background-color: var(--header-bg-red-color);
+    display: flex;
+    align-items: center;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-white-color);
+   
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+    padding: 0 10px;
+}
+#comments {
+    background-color: var(--bg-blue-color);
+    padding-bottom: 20px;
+   
+}
+
+#comments h2 {
+    font-size:32px; ;
+    color: var(--text-white-color);
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.card-comment h3 {
+    padding: 20px 0;
+    font-size: 20px;
+}
+.card-comment {
+    background-color:var(--bg-gray-color) ;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+#modality h2 {
+    font-size: 32px;
+    color: var(--header-bg-red-color);
+    padding: 20px 0;
+    margin-bottom: 20px ;
+}
+
+.card-modality {
+    background-color: var(--bg-blue-color);
+    color: var(--text-white-color);
+    border-radius: 8px;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+
+.card-modality h3 {
+    font-size: 20px;
+    padding-bottom: 20px ;
+    
+}
+
+footer {
+    background-color: var(--bg-black-color);
+    min-height: 262px;
+    color: var(--text-white-color);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.container-midia  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.social-midia {
+    display: flex;
+    align-items: center;
+    padding: 10px ;
+}
+
+.container-footer {
+    margin-bottom: 10px ;
+}
